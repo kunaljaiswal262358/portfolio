@@ -160,10 +160,6 @@ textarea {
     line-height: 1.5;
 }
 
-.card__description ul {
-    list-style: none;
-}
-
 /* Navbar */
 .nav {
     display: flex;
@@ -289,6 +285,21 @@ textarea {
 .project__card {
     margin: 0 auto;
     transition: all 0.3s;
+}
+
+.project__card ul {
+    list-style: none;
+}
+
+.project__card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: rgb(65, 65, 214);
+}
+
+.project__card a:hover {
+    text-decoration: underline;
 }
 
 .project__card:hover {
