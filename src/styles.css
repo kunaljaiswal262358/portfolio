@@ -160,6 +160,10 @@ textarea {
     line-height: 1.5;
 }
 
+.card__description ul {
+    list-style: none;
+}
+
 /* Navbar */
 .nav {
     display: flex;
@@ -271,8 +275,8 @@ textarea {
 
 .project {
     max-width: 90vw;
-    margin: 0 auto;
-    row-gap: 2rem;
+    margin: 3rem auto 1rem;
+    row-gap: 3rem;
     column-gap: 2rem;
     margin-bottom: 2rem;
 }
