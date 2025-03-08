@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <p class="logo bg-lightgrey">Kunal</p>
+      <ul class="list bg-lightgrey">
+        <li class="list__item"><a href="/index.html">Home</a></li>
+        <li class="list__item"><a href="/about.html">About</a></li>
+        <li class="list__item"><a class="about-link" href="/contact.html">Contact</a></li>
+        <li class="list__item"><a href="/project.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="contact contact--grid grid grid-1x2">
+      <div class="contact__content">
+        <h1>Contact Us</h1>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime cum
+          quo velit praesentium error doloremque maiores distinctio
+          exercitationem, corporis reprehenderit suscipit illum temporibus, modi
+          eos non fugit. Aliquam, ipsa provident.
+        </p>
+        <div class="contact-details">
+          <p class="address">
+            <span class="contact__icon"><i class="fa-solid fa-map"></i></span>
+            Bilsanda, Pilibhit
+          </p>
+          <p class="phone">
+            <span class="contact__icon"><i class="fa-solid fa-phone"></i> </span>
+            91+ 6283146720
+          </p>
+          <a href="mailto:kunaljaiswal262358@gmail.com" class="email contact--link">
+            <span class="contact__icon"><i class="fa-solid fa-envelope"></i></span>
+            kunaljaiswal262358@gmail.com
+          </a>
+          <a class="contact--link" href="https://in.linkedin.com/">
+            <span class="contact__icon"><i class="fa-brands fa-linkedin-in"></i></span>
+            Linkedin
+          </a>
+          <a class="contact--link" href="https://github.com/">
+            <span class="contact__icon"><i class="fa-brands fa-github"></i></span>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="contact__form form">
+        <div class="input-box">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+        </div>
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </div>
+        <div class="input-box">
+          <label for="msg">Message</label>
+          <textarea id="msg"></textarea>
+        </div>
+        <button class="btn btn--primary">Send Message</button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
