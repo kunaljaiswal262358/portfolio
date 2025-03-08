@@ -167,6 +167,11 @@ textarea {
     margin: 1rem 2rem;
 }
 
+.nav a {
+    text-decoration: 0;
+    color: #000;
+}
+
 /* hero */
 .hero {
     display: flex;
@@ -191,6 +196,16 @@ textarea {
     margin: 1rem 0;
     line-height: 1.5;
     font-size: 2rem;
+}
+
+.hero__btns  {
+    display: flex;
+    gap: 5px;
+}
+
+.hero__btns a  {
+    text-decoration: 0;
+    color: #000;
 }
 
 @media screen and (min-width: 768px) {
