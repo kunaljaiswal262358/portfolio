@@ -291,15 +291,19 @@ textarea {
     list-style: none;
 }
 
+.arrow {
+    margin-left: 2px;
+}
+
 .project__card a {
     display: inline-block;
     margin-top: 1rem;
     text-decoration: none;
-    color: rgb(65, 65, 214);
+    color: rgb(65, 125, 214);
 }
 
-.project__card a:hover {
-    text-decoration: underline;
+.project__card a:hover .arrow {
+    margin-left: 5px;
 }
 
 .project__card:hover {
